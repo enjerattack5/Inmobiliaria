@@ -1,1 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap");
 @import "tailwindcss";
+
+/* Tipografías del sitio público (el panel admin conserva las suyas) */
+@theme {
+  --font-dm: "DM Sans", sans-serif;
+  --font-display: "Libre Caslon Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f7f6f1;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}

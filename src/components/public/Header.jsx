@@ -1,5 +1,4 @@
-import React from 'react';
-import logoImg from '../assets/logo.jpeg';
+import logoImg from '../../assets/logo.jpeg';
 
 export const Header = () => {
   return (
